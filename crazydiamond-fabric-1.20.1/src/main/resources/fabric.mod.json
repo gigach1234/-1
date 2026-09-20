@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "crazydiamond",
+  "version": "${version}",
+  "name": "Crazy Diamond Stand",
+  "description": "A summonable stand with Punch, Barrage, Return Block, Heal Mode, Stone Shot, Disassemble and Repair Item abilities.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.crazydiamond.CrazyDiamondMod"],
+    "client": ["com.example.crazydiamond.client.CrazyDiamondClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
